@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Snake : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector2  _direction = Vector2.right;
+    public float moveSpeed = 5f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+    
 }
